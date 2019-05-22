@@ -129,12 +129,7 @@ def writeFileUrlStr(urls):
                     break
 if __name__ == "__main__":
     file = open(r"D:\domain\domain\domaintest1.txt")
-    #hostname = socket.gethostname()
-    #ip = socket.gethostbyname(hostname)
-    #if ip == "10.60.224.14":
     with file as f:
         for line in f.readlines():
             writeFileUrlStr(line)
-    #else:
-       # print("The current IP cannot be used ！！！ Please contact the administrator.")
-
+  
